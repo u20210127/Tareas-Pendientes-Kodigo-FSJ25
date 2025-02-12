@@ -1,0 +1,97 @@
+/* estilos.css */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(244, 247, 246, 0.6); /* Color de fondo suave con un 80% de opacidad */
+    color: #333;
+    position: center;
+}
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* Espaciado entre elementos del formulario */
+  }
+  
+  input {
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus {
+    border-color: black; /* Color destacado al enfocar el input */
+    outline: none;
+  }
+  
+  button {
+    padding: 0.75rem;
+    background-color: black;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: black; /* Efecto hover en botón */
+    color: white;
+  }
+  
+  .form-container {
+    background-color: white; /* Fondo blanco */
+    padding: 2rem;
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    max-width: 400px; /* Ancho máximo */
+    margin: 2rem auto; /* Centramos el contenedor */
+  }
+  
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 1.5rem;
+  }
+
+  /*contenido de los forms*/
+  .form-container {
+    width: 100%; /* Asegura que el contenedor ocupe el 100% del espacio */
+    max-width: 500px; /* Establece un ancho máximo para el formulario */
+    margin: 5% auto; /* Centra el formulario horizontalmente */
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px; /* Bordes redondeados para el fondo blanco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.button-container {
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-button {
+    background-color: transparent; /* Fondo transparente */
+    color: white; /* Texto en blanco */
+    border: 2px solid white; /* Borde blanco */
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form-button:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el puntero */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo sutilmente visible al hacer hover */
+    border-color: rgba(255, 255, 255, 0.5); /* Cambio de color del borde al hacer hover */
+}
